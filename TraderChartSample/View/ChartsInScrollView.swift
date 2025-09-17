@@ -27,6 +27,8 @@ struct ChartsInScrollView: View {
         var colorConfig = ColorConfig()
         colorConfig["background"] = UIColor.black
         chartView.colorConfig = colorConfig
+        chartView.mainGraphArea.yAxis.designatedDecimalLength = 3
+        chartView.mainGraphArea.yAxis.isTouchEnabled = false
     }
 }
 
