@@ -11,7 +11,7 @@ import SwiftUI
 struct TraderChartSampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChartsInScrollView()
         }
     }
 }

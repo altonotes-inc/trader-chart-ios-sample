@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  TraderChartSample
-//
-//  Created by 山本敬太 on 2025/09/17.
-//
-
 import SwiftUI
 
 struct ContentView: View {

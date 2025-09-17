@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23588C9B2E7B01B60036D939 /* TraderChart in Frameworks */ = {isa = PBXBuildFile; productRef = 23588C9A2E7B01B60036D939 /* TraderChart */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		23588AB42E7AFFB50036D939 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23588C9B2E7B01B60036D939 /* TraderChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = TraderChartSample;
 			packageProductDependencies = (
+				23588C9A2E7B01B60036D939 /* TraderChart */,
 			);
 			productName = TraderChartSample;
 			productReference = 23588AA62E7AFFB40036D939 /* TraderChartSample.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 23588A9D2E7AFFB40036D939;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23588C992E7B01B60036D939 /* XCLocalSwiftPackageReference "trader-chart-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 23588AA72E7AFFB40036D939 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		23588C992E7B01B60036D939 /* XCLocalSwiftPackageReference "trader-chart-ios" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "trader-chart-ios";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23588C9A2E7B01B60036D939 /* TraderChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TraderChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23588A9E2E7AFFB40036D939 /* Project object */;
 }
